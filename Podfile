@@ -1,5 +1,11 @@
-use_frameworks!
+# Uncomment this line to define a global platform for your project
+platform :ios, '9.0'
+workspace 'iOSTurbo'
+target 'iOSTurbo' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
 
-target "iOSTurbo" do
+  # Pods for iOSTurbo
   pod 'Turbolinks', :git => 'https://github.com/turbolinks/turbolinks-ios.git'
+
 end
