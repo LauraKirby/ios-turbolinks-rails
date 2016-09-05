@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F8DD6E2F37839E1CB09D4E5 /* Pods_iOSTurbo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AFBDB34A4B86D3E02A7812 /* Pods_iOSTurbo.framework */; };
+		4FFEA4F41D7D104A0036D2A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFEA4F31D7D104A0036D2A1 /* AppDelegate.swift */; };
+		4FFEA4F61D7D104A0036D2A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFEA4F51D7D104A0036D2A1 /* ViewController.swift */; };
+		4FFEA4F91D7D104A0036D2A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FFEA4F71D7D104A0036D2A1 /* Main.storyboard */; };
+		4FFEA4FB1D7D104A0036D2A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FFEA4FA1D7D104A0036D2A1 /* Assets.xcassets */; };
+		4FFEA4FE1D7D104A0036D2A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FFEA4FC1D7D104A0036D2A1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4FFEA4F01D7D104A0036D2A1 /* iOSTurbo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTurbo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FFEA4F31D7D104A0036D2A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FFEA4F51D7D104A0036D2A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FFEA4F81D7D104A0036D2A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FFEA4FA1D7D104A0036D2A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FFEA4FD1D7D104A0036D2A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FFEA4FF1D7D104A0036D2A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93AFBDB34A4B86D3E02A7812 /* Pods_iOSTurbo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSTurbo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35DD084D5B856D691A0F254 /* Pods-iOSTurbo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTurbo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTurbo/Pods-iOSTurbo.debug.xcconfig"; sourceTree = "<group>"; };
+		FC04A52F8B1278E063DE6DFA /* Pods-iOSTurbo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTurbo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTurbo/Pods-iOSTurbo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FFEA4ED1D7D104A0036D2A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8DD6E2F37839E1CB09D4E5 /* Pods_iOSTurbo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F7C6ECE55A8828484351007 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93AFBDB34A4B86D3E02A7812 /* Pods_iOSTurbo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FFEA4E71D7D104A0036D2A1 = {
+			isa = PBXGroup;
+			children = (
+				4FFEA4F21D7D104A0036D2A1 /* iOSTurbo */,
+				4FFEA4F11D7D104A0036D2A1 /* Products */,
+				CE5986CAC7DC8FD840937F4B /* Pods */,
+				2F7C6ECE55A8828484351007 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4FFEA4F11D7D104A0036D2A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FFEA4F01D7D104A0036D2A1 /* iOSTurbo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FFEA4F21D7D104A0036D2A1 /* iOSTurbo */ = {
+			isa = PBXGroup;
+			children = (
+				4FFEA4F31D7D104A0036D2A1 /* AppDelegate.swift */,
+				4FFEA4F51D7D104A0036D2A1 /* ViewController.swift */,
+				4FFEA4F71D7D104A0036D2A1 /* Main.storyboard */,
+				4FFEA4FA1D7D104A0036D2A1 /* Assets.xcassets */,
+				4FFEA4FC1D7D104A0036D2A1 /* LaunchScreen.storyboard */,
+				4FFEA4FF1D7D104A0036D2A1 /* Info.plist */,
+			);
+			path = iOSTurbo;
+			sourceTree = "<group>";
+		};
+		CE5986CAC7DC8FD840937F4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E35DD084D5B856D691A0F254 /* Pods-iOSTurbo.debug.xcconfig */,
+				FC04A52F8B1278E063DE6DFA /* Pods-iOSTurbo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FFEA4EF1D7D104A0036D2A1 /* iOSTurbo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FFEA5021D7D104A0036D2A1 /* Build configuration list for PBXNativeTarget "iOSTurbo" */;
+			buildPhases = (
+				8E1C96228B7721C8236E9B44 /* [CP] Check Pods Manifest.lock */,
+				4FFEA4EC1D7D104A0036D2A1 /* Sources */,
+				4FFEA4ED1D7D104A0036D2A1 /* Frameworks */,
+				4FFEA4EE1D7D104A0036D2A1 /* Resources */,
+				F8BE7260AC901AC45447C0D3 /* [CP] Embed Pods Frameworks */,
+				9A665AEB375CFCF2C15F8930 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSTurbo;
+			productName = iOSTurbo;
+			productReference = 4FFEA4F01D7D104A0036D2A1 /* iOSTurbo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FFEA4E81D7D104A0036D2A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LK;
+				TargetAttributes = {
+					4FFEA4EF1D7D104A0036D2A1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4FFEA4EB1D7D104A0036D2A1 /* Build configuration list for PBXProject "iOSTurbo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FFEA4E71D7D104A0036D2A1;
+			productRefGroup = 4FFEA4F11D7D104A0036D2A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FFEA4EF1D7D104A0036D2A1 /* iOSTurbo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FFEA4EE1D7D104A0036D2A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFEA4FE1D7D104A0036D2A1 /* LaunchScreen.storyboard in Resources */,
+				4FFEA4FB1D7D104A0036D2A1 /* Assets.xcassets in Resources */,
+				4FFEA4F91D7D104A0036D2A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E1C96228B7721C8236E9B44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A665AEB375CFCF2C15F8930 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSTurbo/Pods-iOSTurbo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8BE7260AC901AC45447C0D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSTurbo/Pods-iOSTurbo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FFEA4EC1D7D104A0036D2A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFEA4F61D7D104A0036D2A1 /* ViewController.swift in Sources */,
+				4FFEA4F41D7D104A0036D2A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4FFEA4F71D7D104A0036D2A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FFEA4F81D7D104A0036D2A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FFEA4FC1D7D104A0036D2A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FFEA4FD1D7D104A0036D2A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FFEA5001D7D104A0036D2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FFEA5011D7D104A0036D2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FFEA5031D7D104A0036D2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E35DD084D5B856D691A0F254 /* Pods-iOSTurbo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSTurbo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.laurakirby.iOSTurbo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FFEA5041D7D104A0036D2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC04A52F8B1278E063DE6DFA /* Pods-iOSTurbo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSTurbo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.laurakirby.iOSTurbo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FFEA4EB1D7D104A0036D2A1 /* Build configuration list for PBXProject "iOSTurbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFEA5001D7D104A0036D2A1 /* Debug */,
+				4FFEA5011D7D104A0036D2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FFEA5021D7D104A0036D2A1 /* Build configuration list for PBXNativeTarget "iOSTurbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFEA5031D7D104A0036D2A1 /* Debug */,
+				4FFEA5041D7D104A0036D2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FFEA4E81D7D104A0036D2A1 /* Project object */;
+}
