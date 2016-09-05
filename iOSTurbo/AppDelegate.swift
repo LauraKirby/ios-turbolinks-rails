@@ -18,8 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        session.delegate = self
         window?.rootViewController = navigationController
-        visit(NSURL(string: "http://localhost:3000/")!)
+        visit(NSURL(string: "http://localhost:3000")!)
         return true
     }
 
@@ -28,8 +29,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         navigationController.pushViewController(viewController, animated: true)
         session.visit(viewController)
     }
+}
 
+extension AppDelegate: SessionDelegate {
+    func session(session: Session, didProposeVisitToURL URL: NSURL, withAction action: Action){
+        visit(URL)
+    }
 
-
+    func session(session: Session, didFailRequestForVisitable visitable: Visitable, withError error: NSError) {
+        // TODO - handle errors
+    }
 }
 
